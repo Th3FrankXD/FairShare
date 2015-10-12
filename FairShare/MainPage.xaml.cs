@@ -26,5 +26,10 @@ namespace FairShare
         {
             this.InitializeComponent();
         }
+
+        private void bGoToLogin_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Login));
+        }
     }
 }
