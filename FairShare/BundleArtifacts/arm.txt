@@ -1,0 +1,1 @@
+MainPackage=C:\Users\frank\Documents\FairShare\FairShare\bin\ARM\Debug\FairShare_1.0.2.0_ARM_Debug.appx
