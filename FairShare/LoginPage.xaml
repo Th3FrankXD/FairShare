@@ -8,6 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <RelativePanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="tbTitle" Text="Login" FontSize="25" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock Name="tbEmail" Text="email" RelativePanel.Below="tbTitle"/>
+            <TextBox Name="reEmail" Width="150" RelativePanel.Below="tbEmail" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock Name="tbPassword" Text="password" RelativePanel.Below="reEmail"/>
+            <PasswordBox Name="pbPassword" Width="150" RelativePanel.Below="tbPassword" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <Button Name="bLogin" Content="Login" Width="75" RelativePanel.Below="pbPassword" Click="bLogin_Click"/>
+            <Button Name="bRegister" Content="Register" Width="75" RelativePanel.RightOf="bLogin" RelativePanel.Below="pbPassword" Click="bRegister_Click"/>
+        </RelativePanel>
     </Grid>
 </Page>

@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>be3da317-18b7-419d-a6ee-9867f1740c16</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>F3E2B0483E3A74B7EAD64EA85E5066A09CE3C37B9D63F903DDDC0668473A44CB</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>be3da317-18b7-419d-a6ee-9867f1740c16_1.0.0.0_x86__h68e2gsmfdepg</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>3D41C5E1D71B47A4B0F9C5051C841BF787B86DCF58684B311D735E3EAA21BC9F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>be3da317-18b7-419d-a6ee-9867f1740c16_1.0.1.0_x86__h68e2gsmfdepg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>be3da317-18b7-419d-a6ee-9867f1740c16_h68e2gsmfdepg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>be3da317-18b7-419d-a6ee-9867f1740c16</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=frank</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.1.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-12T17:56:35.268</Modified>
+      <Modified>2015-10-16T01:29:26.945</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -36,26 +36,32 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-04T20:32:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-04T20:32:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-04T20:32:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-04T20:32:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-04T20:32:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-04T20:32:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\ClrCompression.dll">
@@ -64,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\entrypoint\FairShare.exe">
       <PackagePath>entrypoint\FairShare.exe</PackagePath>
-      <Modified>2015-10-12T17:56:34.596</Modified>
+      <Modified>2015-10-16T01:29:26.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\FairShare.exe">
       <PackagePath>FairShare.exe</PackagePath>
-      <Modified>2015-10-12T17:56:35.267</Modified>
+      <Modified>2015-10-16T01:29:26.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\FairShare.xr.xml">
       <PackagePath>FairShare.xr.xml</PackagePath>
-      <Modified>2015-10-12T17:54:53.390</Modified>
+      <Modified>2015-10-16T01:27:47.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -104,7 +110,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-12T17:56:35.007</Modified>
+      <Modified>2015-10-16T01:27:48.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2015-10-15T20:28:44.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-10-15T20:28:44.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.WinRT.dll">
+      <PackagePath>SQLite.WinRT.dll</PackagePath>
+      <Modified>2015-10-15T20:56:26.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2015-10-15T20:25:50.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -510,27 +532,27 @@
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
       <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23117.0</Version>
+      <Version>1.0.23302.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23117.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
       <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23117.0</Version>
+      <Version>1.0.23302.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23117.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
       <Name>Microsoft.NET.CoreRuntime.1.0</Name>
-      <Version>1.0.23117.0</Version>
+      <Version>1.0.23302.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23117.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

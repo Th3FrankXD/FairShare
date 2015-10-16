@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <RelativePanel>
+            <TextBlock Name="tbNeedLogin" Text="Login to continue" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Above="bLogin"/>
             <Button Name="bLogin" Content="Login" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Click="bGoToLogin_Click"/>
         </RelativePanel>
     </Grid>

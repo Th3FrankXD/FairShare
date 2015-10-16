@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="FairShare.MainPage"
+    x:Class="FairShare.FairShare"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:FairShare"
@@ -9,8 +9,8 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <RelativePanel>
-            <Button x:ConnectionId='1' Name="bLogin" Content="Login" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"                         />
+            <TextBlock Name="Hurray" Text="Hurray!!! you are logged in!" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Above="bLogout"/>
+            <Button Name="bLogout" Content="Logout" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Click="bLogout_Click"/>
         </RelativePanel>
     </Grid>
 </Page>
-

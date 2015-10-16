@@ -9,7 +9,8 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <RelativePanel>
-            <Button x:ConnectionId='1' Name="bLogin" Content="Login" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"                         />
+            <TextBlock x:ConnectionId='1' Name="tbNeedLogin" Text="Login to continue" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Above="bLogin"/>
+            <Button x:ConnectionId='2' Name="bLogin" Content="Login" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"                         />
         </RelativePanel>
     </Grid>
 </Page>
