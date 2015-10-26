@@ -8,9 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <RelativePanel>
-            <TextBlock Name="Hurray" Text="Hurray!!! you are logged in!" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Above="bLogout"/>
-            <Button Name="bLogout" Content="Logout" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Click="bLogout_Click"/>
-        </RelativePanel>
+        <SplitView IsPaneOpen="True" OpenPaneLength="250" PanePlacement="Left" DisplayMode="Inline">
+            <SplitView.Pane>
+                <StackPanel Name="stackPanel">
+                    <TextBlock Name="Loans" Text="Loans" FontSize="40" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <Frame x:Name="SplitViewFrame">
+                    </Frame>
+                </Grid>
+            </SplitView.Content>
+        </SplitView>
     </Grid>
 </Page>

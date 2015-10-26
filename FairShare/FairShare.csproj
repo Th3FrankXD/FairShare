@@ -99,12 +99,19 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLoanPage.xaml.cs">
+      <DependentUpon>AddLoanPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="dbManager.cs" />
     <Compile Include="FairShare.xaml.cs">
       <DependentUpon>FairShare.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Loan.cs" />
+    <Compile Include="LoanPage.xaml.cs">
+      <DependentUpon>LoanPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
@@ -117,6 +124,7 @@
       <DependentUpon>RegisterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="UserLoan.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -139,7 +147,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AddLoanPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FairShare.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoanPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

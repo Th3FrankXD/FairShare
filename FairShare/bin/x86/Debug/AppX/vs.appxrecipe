@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>be3da317-18b7-419d-a6ee-9867f1740c16</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>3D41C5E1D71B47A4B0F9C5051C841BF787B86DCF58684B311D735E3EAA21BC9F</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>be3da317-18b7-419d-a6ee-9867f1740c16_1.0.1.0_x86__h68e2gsmfdepg</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>50005BF4923C13F6B0D208AD4EA0E5D9C43263837C515F141C36E6BFA6C7665F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>be3da317-18b7-419d-a6ee-9867f1740c16_1.0.2.0_x86__h68e2gsmfdepg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>be3da317-18b7-419d-a6ee-9867f1740c16_h68e2gsmfdepg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>be3da317-18b7-419d-a6ee-9867f1740c16</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=frank</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.1.0</RegisteredVersion>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-16T01:29:26.945</Modified>
+      <Modified>2015-10-26T21:35:00.223</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\entrypoint\FairShare.exe">
       <PackagePath>entrypoint\FairShare.exe</PackagePath>
-      <Modified>2015-10-16T01:29:26.584</Modified>
+      <Modified>2015-10-26T21:34:59.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\FairShare.exe">
       <PackagePath>FairShare.exe</PackagePath>
-      <Modified>2015-10-16T01:29:26.943</Modified>
+      <Modified>2015-10-26T21:35:00.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\FairShare.xr.xml">
       <PackagePath>FairShare.xr.xml</PackagePath>
-      <Modified>2015-10-16T01:27:47.397</Modified>
+      <Modified>2015-10-26T21:05:19.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -110,23 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-16T01:27:48.159</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.Net.dll">
-      <PackagePath>SQLite.Net.dll</PackagePath>
-      <Modified>2015-10-15T20:28:44.953</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.Net.Platform.WinRT.dll">
-      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
-      <Modified>2015-10-15T20:28:44.963</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.WinRT.dll">
-      <PackagePath>SQLite.WinRT.dll</PackagePath>
-      <Modified>2015-10-15T20:56:26.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\sqlite3.dll">
-      <PackagePath>sqlite3.dll</PackagePath>
-      <Modified>2015-10-15T20:25:50.226</Modified>
+      <Modified>2015-10-26T21:05:20.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

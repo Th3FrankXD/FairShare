@@ -25,11 +25,60 @@ namespace FairShare
         public FairShare()
         {
             this.InitializeComponent();
+            LoadLoans();
         }
 
-        private void bLogout_Click(object sender, RoutedEventArgs e)
+        public void AddLoanButton()
         {
-            this.Frame.Navigate(typeof(MainPage));
+            Button button = new Button();
+            button.Width = 250;
+            button.Content = "Add new loan";
+            stackPanel.Children.Add(button);
+            button.Click += addLoan_Click;
+        }
+
+        public void RemoveButtons()
+        {
+            foreach (Button button in stackPanel.Children.OfType<Button>())
+            {
+                stackPanel.Children.Remove(button);
+            }
+        }
+
+        public void LoadLoans()
+        {
+            RemoveButtons();
+            if (dbManager.userLoans[dbManager.loggedInUser.ID].Loans != null)
+            {
+                foreach (int loanID in dbManager.userLoans[dbManager.loggedInUser.ID].Loans)
+                {
+                    foreach (Loan loan in dbManager.loans)
+                    {
+                        if (loanID == loan.ID)
+                        {
+                            Button button = new Button();
+                            button.Width = 250;
+                            button.Name = loanID.ToString();
+                            if(loan.GetUser == dbManager.loggedInUser)
+                            {
+                                button.Content = "get " + loan.Amount + " from " + loan.OweUser.NickName;
+                            }
+                            else
+                            {
+                                button.Content = "owe " + loan.Amount + " to " + loan.GetUser.NickName;
+                            }
+                            stackPanel.Children.Add(button);
+                        }
+                    }
+                }
+            }
+            AddLoanButton();
+        }
+
+        private void addLoan_Click(object sender, RoutedEventArgs e)
+        {
+            this.SplitViewFrame.Navigate(typeof(AddLoanPage));
+            LoadLoans();
         }
     }
 }

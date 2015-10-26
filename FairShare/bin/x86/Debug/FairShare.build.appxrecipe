@@ -84,18 +84,6 @@
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.Net.dll">
-      <PackagePath>SQLite.Net.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.Net.Platform.WinRT.dll">
-      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\SQLite.WinRT.dll">
-      <PackagePath>SQLite.WinRT.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\sqlite3.dll">
-      <PackagePath>sqlite3.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
