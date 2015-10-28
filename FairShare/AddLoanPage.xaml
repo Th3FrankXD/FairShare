@@ -13,7 +13,7 @@
             <TextBlock Name="tbEmail" Text="email" RelativePanel.Below="tbTitle"/>
             <TextBox Name="reEmail" Width="150" RelativePanel.Below="tbEmail" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
             <Viewbox Name="vbOwes" Width="75" RelativePanel.Below="reEmail">
-                <RadioButton Name="rbOwes" GroupName="Loan" Content="Owes me" Width="75"/>
+                <RadioButton Name="rbOwes" GroupName="Loan" Content="Owes me" Width="75" IsChecked="True"/>
             </Viewbox>
             <Viewbox Name="vbGets" Width="75" RelativePanel.Below="reEmail" RelativePanel.RightOf="vbOwes">
                 <RadioButton Name="rbGets" GroupName="Loan" Content="Gets" Width="75"/>

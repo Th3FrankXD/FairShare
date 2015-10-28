@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace FairShare
 {
@@ -11,6 +12,7 @@ namespace FairShare
         public static Users users = new Users();
         public static Loans loans = new Loans();
         public static UserLoans userLoans = new UserLoans();
+        public static UIButtons uiButtons = new UIButtons();
         public static User loggedInUser = new User();
 
         //////////// USERS ////////////////
@@ -56,7 +58,7 @@ namespace FairShare
         {
             loans.Add(new Loan()
             {
-                ID = loans.Count(),
+                ID = loans.Count().ToString(),
                 OweUser = oweUser,
                 GetUser = getUser,
                 Amount = amount,
@@ -71,6 +73,24 @@ namespace FairShare
         {
             userLoans[getUserID].Loans.Add(loanID);
             userLoans[oweUserID].Loans.Add(loanID);
+        }
+
+        ////////////// BUTTONS ///////////////
+
+        public static void addButton(string ID)
+        {
+            uiButtons.Add(new UIButton()
+            {
+                ID = ID
+            });
+        }
+
+        public static void ClearButtons()
+        {
+            foreach (UIButton uiButton in uiButtons)
+            {
+                uiButtons.Remove(uiButton);
+            }
         }
     }
 }

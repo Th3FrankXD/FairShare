@@ -31,14 +31,14 @@ namespace FairShare
         async private void bAdd_Click(object sender, RoutedEventArgs e)
         {
             string email = reEmail.Text;
-            bool owes = rbOwes.IsEnabled;
-            bool gets = rbGets.IsEnabled;
+            var owes = rbOwes.IsChecked;
+            var gets = rbGets.IsEnabled;
             string euro = reEuro.Text;
             string cent = reCent.Text;
-            string amount = euro + "," + cent;
+            string amount = "€" + euro + "," + cent;
             string comment = reComment.Text;
             
-            if (email != "" && (owes || gets) && euro != "")
+            if (email != "" && (owes == true || gets ==  true) && euro != "")
             {
                 if (dbManager.getUser(email) != null && email != dbManager.loggedInUser.Email)
                 {
@@ -46,15 +46,15 @@ namespace FairShare
                     {
                         int validateCurrency = Int32.Parse(euro + cent);
 
-                        if (owes)
+                        if (owes == true)
                         {
                             dbManager.addLoan(dbManager.loggedInUser, dbManager.getUser(email), amount, comment);
-                            this.Frame.Navigate(typeof(FairShare));
+                            this.Frame.Navigate(typeof(BlankPage));
                         }
                         else
                         {
                             dbManager.addLoan(dbManager.getUser(email), dbManager.loggedInUser, amount, comment);
-                            this.Frame.Navigate(typeof(FairShare));
+                            this.Frame.Navigate(typeof(BlankPage));
                         }
                     }
                     catch
@@ -82,7 +82,7 @@ namespace FairShare
 
         private void bCancel_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(FairShare));
+            this.Frame.Navigate(typeof(BlankPage));
         }
     }
 }

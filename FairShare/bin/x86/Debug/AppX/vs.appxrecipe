@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-26T21:35:00.223</Modified>
+      <Modified>2015-10-28T18:54:01.056</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\entrypoint\FairShare.exe">
       <PackagePath>entrypoint\FairShare.exe</PackagePath>
-      <Modified>2015-10-26T21:34:59.803</Modified>
+      <Modified>2015-10-28T18:54:00.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\FairShare.exe">
       <PackagePath>FairShare.exe</PackagePath>
-      <Modified>2015-10-26T21:35:00.222</Modified>
+      <Modified>2015-10-28T18:54:01.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\FairShare.xr.xml">
       <PackagePath>FairShare.xr.xml</PackagePath>
-      <Modified>2015-10-26T21:05:19.856</Modified>
+      <Modified>2015-10-28T18:29:25.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-26T21:05:20.575</Modified>
+      <Modified>2015-10-28T18:49:06.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

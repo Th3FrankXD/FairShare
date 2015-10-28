@@ -20,9 +20,9 @@ namespace FairShare
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class FairShare : Page
+    public sealed partial class Menu : Page
     {
-        public FairShare()
+        public Menu()
         {
             this.InitializeComponent();
             LoadLoans();
@@ -35,6 +35,24 @@ namespace FairShare
             button.Content = "Add new loan";
             stackPanel.Children.Add(button);
             button.Click += addLoan_Click;
+        }
+
+        public void AddRefreshButton()
+        {
+            Button button = new Button();
+            button.Width = 250;
+            button.Content = "Refresh";
+            stackPanel.Children.Add(button);
+            button.Click += Refresh_Click;
+        }
+
+        public void AddLogoutButton()
+        {
+            Button button = new Button();
+            button.Width = 250;
+            button.Content = "Logout";
+            stackPanel.Children.Add(button);
+            button.Click += Logout_Click;
         }
 
         public void RemoveButtons()
@@ -54,12 +72,11 @@ namespace FairShare
                 {
                     foreach (Loan loan in dbManager.loans)
                     {
-                        if (loanID == loan.ID)
+                        if (loanID.ToString() == loan.ID)
                         {
                             Button button = new Button();
                             button.Width = 250;
-                            button.Name = loanID.ToString();
-                            if(loan.GetUser == dbManager.loggedInUser)
+                            if (loan.GetUser == dbManager.loggedInUser)
                             {
                                 button.Content = "get " + loan.Amount + " from " + loan.OweUser.NickName;
                             }
@@ -67,18 +84,51 @@ namespace FairShare
                             {
                                 button.Content = "owe " + loan.Amount + " to " + loan.GetUser.NickName;
                             }
+                            button.Name = loanID.ToString();
+                            button.Click += Loan_Click;
                             stackPanel.Children.Add(button);
                         }
                     }
                 }
             }
             AddLoanButton();
+            AddRefreshButton();
+            AddLogoutButton();
         }
 
         private void addLoan_Click(object sender, RoutedEventArgs e)
         {
             this.SplitViewFrame.Navigate(typeof(AddLoanPage));
+        }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            dbManager.loggedInUser = null;
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Refresh_Click(object sender, RoutedEventArgs e)
+        {
+            RemoveButtons();
             LoadLoans();
+        }
+
+        private void Loan_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (sender as Button);
+            dbManager.addButton(button.Name);
+            foreach (UIButton uiButton in dbManager.uiButtons)
+            {
+                if (uiButton.ID == button.Name)
+                {
+                    uiButton.Selected = true;
+                }
+                else
+                {
+                    uiButton.Selected = false;
+                }
+            }
+            this.SplitViewFrame.Navigate(typeof(LoanPage));
         }
     }
 }

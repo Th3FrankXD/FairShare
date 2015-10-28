@@ -34,6 +34,7 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Name" />
@@ -55,8 +56,10 @@
       <RootProperty Name="GroupName" />
       <RootProperty Name="Content" />
       <RootProperty Name="Width" />
+      <RootProperty Name="IsChecked" />
     </RootType>
     <RootType FullName="FairShare.AddLoanPage" />
+    <RootType FullName="FairShare.BlankPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="IsPaneOpen" />
       <RootProperty Name="OpenPaneLength" />
@@ -70,7 +73,7 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
-    <RootType FullName="FairShare.FairShare" />
+    <RootType FullName="FairShare.Menu" />
     <RootType FullName="FairShare.LoanPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="Name" />

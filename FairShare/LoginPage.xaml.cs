@@ -42,7 +42,7 @@ namespace FairShare
             {
                 if (dbManager.loginUser(email, password) != null)
                 {
-                    this.Frame.Navigate(typeof(FairShare));
+                    this.Frame.Navigate(typeof(Menu));
                 }
                 else
                 {

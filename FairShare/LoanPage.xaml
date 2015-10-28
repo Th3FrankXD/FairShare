@@ -8,6 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        
+        <RelativePanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="tbTitle" Text="Loan" FontSize="25" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock Name="tbNickname" RelativePanel.Below="tbTitle" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock Name="tbDebt" RelativePanel.Below="tbNickname" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock Name="tbAmount" RelativePanel.Below="tbDebt" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock Name="tbComment" RelativePanel.Below="tbAmount" RelativePanel.AlignHorizontalCenterWithPanel="True" Height="50"/>
+            <Button Name="bPaid" Content="Paid" Width="75" RelativePanel.Below="tbComment" Click="bPaid_Click"/>
+            <Button Name="bCancel" Content="Cancel" Width="75" RelativePanel.RightOf="bPaid" RelativePanel.Below="tbComment" Click="bCancel_Click"/>
+        </RelativePanel>
     </Grid>
 </Page>

@@ -8,7 +8,7 @@ namespace FairShare
 {
     public class Loan
     {
-        public int ID { get; set; }
+        public string ID { get; set; }
         public User GetUser { get; set; }
         public User OweUser { get; set; }
         public string Amount { get; set; }

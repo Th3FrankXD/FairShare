@@ -132,25 +132,27 @@ namespace FairShare.FairShare_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "FairShare.AddLoanPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "FairShare.FairShare";
-            _typeNameTable[4] = "FairShare.LoanPage";
-            _typeNameTable[5] = "FairShare.LoginPage";
-            _typeNameTable[6] = "FairShare.MainPage";
-            _typeNameTable[7] = "FairShare.RegisterPage";
+            _typeNameTable[3] = "FairShare.BlankPage";
+            _typeNameTable[4] = "FairShare.Menu";
+            _typeNameTable[5] = "FairShare.LoanPage";
+            _typeNameTable[6] = "FairShare.LoginPage";
+            _typeNameTable[7] = "FairShare.MainPage";
+            _typeNameTable[8] = "FairShare.RegisterPage";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::FairShare.AddLoanPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::FairShare.FairShare);
-            _typeTable[4] = typeof(global::FairShare.LoanPage);
-            _typeTable[5] = typeof(global::FairShare.LoginPage);
-            _typeTable[6] = typeof(global::FairShare.MainPage);
-            _typeTable[7] = typeof(global::FairShare.RegisterPage);
+            _typeTable[3] = typeof(global::FairShare.BlankPage);
+            _typeTable[4] = typeof(global::FairShare.Menu);
+            _typeTable[5] = typeof(global::FairShare.LoanPage);
+            _typeTable[6] = typeof(global::FairShare.LoginPage);
+            _typeTable[7] = typeof(global::FairShare.MainPage);
+            _typeTable[8] = typeof(global::FairShare.RegisterPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -186,11 +188,12 @@ namespace FairShare.FairShare_XamlTypeInfo
         }
 
         private object Activate_0_AddLoanPage() { return new global::FairShare.AddLoanPage(); }
-        private object Activate_3_FairShare() { return new global::FairShare.FairShare(); }
-        private object Activate_4_LoanPage() { return new global::FairShare.LoanPage(); }
-        private object Activate_5_LoginPage() { return new global::FairShare.LoginPage(); }
-        private object Activate_6_MainPage() { return new global::FairShare.MainPage(); }
-        private object Activate_7_RegisterPage() { return new global::FairShare.RegisterPage(); }
+        private object Activate_3_BlankPage() { return new global::FairShare.BlankPage(); }
+        private object Activate_4_Menu() { return new global::FairShare.Menu(); }
+        private object Activate_5_LoanPage() { return new global::FairShare.LoanPage(); }
+        private object Activate_6_LoginPage() { return new global::FairShare.LoginPage(); }
+        private object Activate_7_MainPage() { return new global::FairShare.MainPage(); }
+        private object Activate_8_RegisterPage() { return new global::FairShare.RegisterPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -217,37 +220,44 @@ namespace FairShare.FairShare_XamlTypeInfo
                 xamlType = new global::FairShare.FairShare_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  FairShare.FairShare
+            case 3:   //  FairShare.BlankPage
                 userType = new global::FairShare.FairShare_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_FairShare;
+                userType.Activator = Activate_3_BlankPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  FairShare.LoanPage
+            case 4:   //  FairShare.Menu
                 userType = new global::FairShare.FairShare_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_LoanPage;
+                userType.Activator = Activate_4_Menu;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  FairShare.LoginPage
+            case 5:   //  FairShare.LoanPage
                 userType = new global::FairShare.FairShare_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_LoginPage;
+                userType.Activator = Activate_5_LoanPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  FairShare.MainPage
+            case 6:   //  FairShare.LoginPage
                 userType = new global::FairShare.FairShare_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_MainPage;
+                userType.Activator = Activate_6_LoginPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  FairShare.RegisterPage
+            case 7:   //  FairShare.MainPage
                 userType = new global::FairShare.FairShare_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_RegisterPage;
+                userType.Activator = Activate_7_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  FairShare.RegisterPage
+                userType = new global::FairShare.FairShare_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_RegisterPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

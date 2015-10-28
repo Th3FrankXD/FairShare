@@ -443,11 +443,6 @@ C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\LoginPage.xaml
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\RegisterPage.xaml
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\LoginPage.xbf
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\RegisterPage.xbf
-C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\FairShare.xbf
-C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\FairShare.g.i.cs
-C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\FairShare.g.cs
-C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\FairShare.xaml
-C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\FairShare.xbf
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\LoanPage.g.i.cs
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\LoanPage.g.cs
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\AddLoanPage.g.i.cs
@@ -458,4 +453,14 @@ C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\AddLoanPage.xbf
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\LoanPage.xbf
 C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\AddLoanPage.xbf
 C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\LoanPage.xbf
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\BlankPage.g.i.cs
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\BlankPage.g.cs
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\Menu.g.i.cs
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\Menu.g.cs
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\BlankPage.xaml
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\Menu.xaml
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\BlankPage.xbf
+C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\Menu.xbf
+C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\BlankPage.xbf
+C:\Users\frank\Documents\FairShare\FairShare\bin\x86\Debug\Menu.xbf
 C:\Users\frank\Documents\FairShare\FairShare\obj\x86\Debug\FairShare.csprojResolveAssemblyReference.cache
